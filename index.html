@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ROJA GARCÍA</title>
+  <meta name="description" content="ROJA GARCÍA - artista rock.">
+  <meta name="theme-color" content="#000000">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+  >
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <main>
+    <section class="hero" id="top" aria-label="Presentación de Roja García">
+      <div class="hero__media" aria-hidden="true">
+        <video
+          class="hero__video"
+          autoplay
+          muted
+          loop
+          playsinline
+          preload="metadata"
+          poster="assets/poster.jpg"
+        >
+          <source src="assets/hero.webm" type="video/webm">
+          <source src="assets/hero.mp4" type="video/mp4">
+        </video>
+        <div class="hero__overlay"></div>
+      </div>
+
+      <div class="hero__content">
+        <h1 class="hero__title" aria-label="Roja García">
+          <span class="hero__word hero__word--top">ROJA</span>
+          <span class="hero__word hero__word--bottom">GARCIA</span>
+        </h1>
+      </div>
+    </section>
+
+    <section class="socials" id="socials" aria-label="Redes sociales">
+      <div class="socials__inner">
+        <img
+          class="corner-logo corner-logo--left"
+          src="assets/logo-roja.webp"
+          alt="Logo de Roja García"
+          loading="lazy"
+          decoding="async"
+        >
+
+        <div class="socials__links">
+          <a
+            class="social-link"
+            href="https://instagram.com/rojagarcia_artista"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+          >
+            <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+            <span class="sr-only">Instagram</span>
+          </a>
+
+          <a
+            class="social-link"
+            href="https://youtube.com/@AlexandraGarcíaQuintero"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="YouTube"
+          >
+            <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+            <span class="sr-only">YouTube</span>
+          </a>
+
+          <a
+            class="social-link"
+            href="https://tiktok.com/@rojagarcia_artista"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="TikTok"
+          >
+            <i class="fa-brands fa-tiktok" aria-hidden="true"></i>
+            <span class="sr-only">TikTok</span>
+          </a>
+        </div>
+
+        <img
+          class="corner-logo corner-logo--right"
+          src="assets/logo-roja.webp"
+          alt=""
+          loading="lazy"
+          decoding="async"
+          aria-hidden="true"
+        >
+      </div>
+    </section>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
